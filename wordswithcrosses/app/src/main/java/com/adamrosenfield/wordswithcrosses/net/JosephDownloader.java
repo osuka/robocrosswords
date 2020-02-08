@@ -28,7 +28,7 @@ import java.util.Calendar;
  */
 public class JosephDownloader extends AbstractJPZDownloader {
     public JosephDownloader() {
-        super("https://puzzles.kingdigital.com/jpz/Joseph/", "Joseph Crosswords");
+        super("http://puzzles.kingdigital.com/jpz/Joseph/", "Joseph Crosswords");
     }
 
     public boolean isPuzzleAvailable(Calendar date) {

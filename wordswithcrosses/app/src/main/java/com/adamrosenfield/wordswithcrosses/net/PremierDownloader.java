@@ -28,7 +28,7 @@ import java.util.Calendar;
  */
 public class PremierDownloader extends AbstractJPZDownloader {
     public PremierDownloader() {
-        super("https://puzzles.kingdigital.com/jpz/Premier/", "Premier Crosswords");
+        super("http://puzzles.kingdigital.com/jpz/Premier/", "Premier Crosswords");
     }
 
     public boolean isPuzzleAvailable(Calendar date) {

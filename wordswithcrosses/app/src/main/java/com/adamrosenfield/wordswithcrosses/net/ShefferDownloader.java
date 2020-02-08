@@ -28,7 +28,7 @@ import java.util.Calendar;
  */
 public class ShefferDownloader extends AbstractJPZDownloader {
     public ShefferDownloader() {
-        super("https://puzzles.kingdigital.com/jpz/Sheffer/", "Sheffer Crosswords");
+        super("http://puzzles.kingdigital.com/jpz/Sheffer/", "Sheffer Crosswords");
     }
 
     public boolean isPuzzleAvailable(Calendar date) {
